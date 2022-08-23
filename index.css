@@ -1,0 +1,128 @@
+@font-face {
+    font-family: redder;
+    src: url("./fonts/NetflixSansBlack.ttf");
+}
+
+main{
+    background-image: url("./images/netflix\ background.png");
+    height: 125vh ;
+    width: 100% ;
+    position: relative;
+}
+.section{
+    
+    background-color: rgba(0, 0, 0, 0.911);
+    width: 23%;
+    height: 70vh;
+    position: absolute;
+    top: 12vh;
+    left: 56vh;
+    padding: 5vh;
+}
+h1{
+    color: red;
+    font-family: redder;
+    vertical-align: middle;
+    line-height: 90px;
+    height: 45px;
+    width: 167px;
+}
+h2{
+    font-family: redder;
+/*     color: white; */
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+}
+input{
+    background-color:dimgrey;
+    border-radius: 7px;
+    height: 4vh;
+}
+.btn{
+    background-color: #e50914;
+    font-size: 16px;
+    color: white;
+    width: 32vh;
+    height: 6vh;
+    font-weight: 700;
+    border: 4px;
+    padding: 16px;
+    size: 40;
+}
+span{
+    color: dimgrey;
+    position: absolute;
+    top: 43vh;
+}
+.lo{
+    text-align:center;
+    text-decoration: none;
+    color: dimgrey;
+    position: absolute;
+    top: 43vh;
+    left: 32vh;
+}
+.lo:hover{
+    text-decoration: underline;
+    color: none;
+}
+
+.lo1{
+    color: white;
+    text-decoration: none;
+}
+.lo1:hover{
+    text-decoration: underline;
+}
+.lo2{
+    color: blue;
+    text-decoration: none;
+}
+.lo2:hover{
+    text-decoration: underline;
+}
+/* .lo foot{
+    color: red;
+    text-decoration: none;
+}
+.lo foot:hover{
+    text-decoration: underline;
+} */
+footer{
+    background-color: rgba(0, 0, 0, 0.911);
+    height: 21vh;
+    width: 98%;
+    padding: 2vh;
+    position: absolute;
+    top: 100vh;
+    left: 0;
+    right: 0;
+    color: dimgrey;
+    display: flex;
+    justify-content: space-around;
+}
+.dem:hover{
+    text-decoration: underline;
+}
+.der:hover{
+    text-decoration: underline;
+}
+.des:hover{
+    text-decoration: underline;
+}
+.text{
+    color: dimgrey;
+}
+.bem:hover{
+    text-decoration: underline;
+}
+.ber:hover{
+    text-decoration: underline;
+}
+.cem:hover{
+    text-decoration: underline;
+}
+.cer:hover{
+    text-decoration: underline;
+}
